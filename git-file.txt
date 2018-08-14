@@ -1,0 +1,4 @@
+git add .
+git commit -m "Update to README"
+git remote add origin https://github.com/njihiamark/skill_selection
+git push origin master
