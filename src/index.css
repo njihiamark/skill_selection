@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-size: 14px;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p.lead{
+  font-size: 16px;
+}
+
+h3.lead{
+  font-size: 21px;
+}
