@@ -6,10 +6,11 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 
 
-
 const styles = {
   card: {
     minWidth: 275,
+    border: '1px solid #ff3939',
+    backgroundColor: '#FFEDED',
     marginBottom: 15
   },
   grid: {
@@ -17,15 +18,15 @@ const styles = {
   }
 };
 
-function SkillsHeader(props) {
+function ValidationErrors(props) {
   const { classes } = props;
   return (
     <div>
-      <Grid item md={4} className={classes.grid}>
+    <Grid item md={4} className={classes.grid}>
         <Card className={classes.card}>
           <CardContent>
-            <h3 className="lead">Select your skills</h3>
-            <p className="lead">Please choose at least 5 most important skills you have</p>
+            <h3 className="lead">Whoops!</h3>
+            <p className="lead">Make sure you have selected at least 5 skills.</p>
           </CardContent>
         </Card>
       </Grid>
@@ -34,8 +35,8 @@ function SkillsHeader(props) {
   );
 }
 
-SkillsHeader.propTypes = {
+ValidationErrors.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SkillsHeader);
+export default withStyles(styles)(ValidationErrors);

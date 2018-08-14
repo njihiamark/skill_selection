@@ -1,10 +1,30 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SkillsHeader from './components/SkillsHeader';
+import ValidationErrors from './components/ValidationErrors';
+import SkillsList from './components/SkillsList';
+import { withStyles } from '@material-ui/core/styles';
 
-function App() {
+const styles = {
+  root: {
+    padding: '30px 15px'
+  }
+};
+
+function App(props) {
+  const { classes } = props;
   return (
-    <SkillsHeader />
+    <div className={classes.root}>
+      <ValidationErrors />
+      <SkillsHeader />
+      <SkillsList  />
+    </div>
+
   );
 }
 
-export default App;
+App.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(App);
