@@ -7,7 +7,6 @@ import Grid from '@material-ui/core/Grid';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
