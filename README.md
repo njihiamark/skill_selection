@@ -25,15 +25,15 @@ On extra points :
 
 * If user is on mobile, show all skills at once instead of having a scrollable list. This makes the mobile experience nicer.
 
-I think I somewhat achieved this
+_I think I somewhat achieved this_
 
 * Add hover and click states for all clickable areas.
 
-This was achieved
+_This was achieved_
 
 * Add transitional animation when the list expands/collapses.
 
-This was achieved
+_This was achieved_
 
 * Make page compatible with Opera Mini, as many of our Ugandan users still use it. See Dev.Opera — Opera Mini and JavaScript for learning how JavaScripts works on Opera Mini.
 
