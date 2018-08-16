@@ -37,4 +37,6 @@ _This was achieved_
 
 * Make page compatible with Opera Mini, as many of our Ugandan users still use it. See Dev.Opera — Opera Mini and JavaScript for learning how JavaScripts works on Opera Mini.
 
-I did not carry out the test for this
+_I did not carry out the test for this_
+
+## Extra Considerations
