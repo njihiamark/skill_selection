@@ -40,3 +40,5 @@ _This was achieved_
 _I did not carry out the test for this_
 
 ## Extra Considerations
+
+I would use education and work experience roles to filter the data for the skills and return the skills with the most counts limiting the result to 10. On the user interface I also think there should be a search box to help filtering the checkboxes as the user types to help in the skill selection. I could consider a library like this [one](https://react-autosuggest.js.org/)
